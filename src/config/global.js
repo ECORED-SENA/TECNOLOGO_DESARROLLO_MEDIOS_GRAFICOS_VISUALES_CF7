@@ -1,11 +1,10 @@
 export default {
   global: {
-    componenteFormativo:
-      'Componente Formativo con un nombre extremadamente largo y extenso',
+    componenteFormativo: 'Procesos de producción gráfica',
     descripcionCurso:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean convallis vestibulum quam bibendum varius.<br/><br/>Quisque pretium at nulla sit amet placerat. Vestibulum consequat suscipit accumsan. Proin pharetra congue enim et tempus. Sed sodales dui volutpat, placerat tellus accumsan, semper est. Phasellus nec lorem elementum, mattis quam eget, vestibulum nibh. Sed.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
+      'La producción gráfica es una forma artística y creativa de plasmar una imagen a partir de un proceso de varias etapas como el diseño, la preimpresión, la impresión y la postproducción. Con la tecnología aparecen nuevas formas de comunicar y la creación de diseños para medios digitales, la premedia organiza archivos multipropósitos dirigidos a medios impresos y digitales.',
+    imagenBannerPrincipal: require('@/assets/curso/inicio.png'),
+    fondoBannerPrincipal: require('@/assets/curso/fondo-banner-i.jpg'),
   },
   menuPrincipal: {
     menu: [
