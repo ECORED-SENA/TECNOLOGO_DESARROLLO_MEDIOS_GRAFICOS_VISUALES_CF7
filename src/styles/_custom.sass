@@ -1,0 +1,58 @@
+.bloque-texto-g--reverse
+  justify-content: flex-start
+  .bloque-texto-g__img
+    left: auto
+    right: 0
+
+.tarjeta.color-acento-botones--borde
+  background-color: $color-acento-botones
+
+.tarjeta.color-secundario--claro
+  background-color: #FFF9E0
+
+.lista-ul--color li > i:first-of-type
+  color: $color-acento-botones
+
+.slyder-a__tipo-a 
+  .slyder-a__btn--atrs
+    left: -70px
+  .slyder-a__btn--sigt
+    right: -70px
+
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: $color-acento-contenido
+    border-color: transparent
+    color: $white
+    background-image: url(../assets/componentes/arrow-white.svg)
+
+  .slyder-a__bullets
+    bottom: -30px
+    &__item
+      border-color: $color-acento-contenido
+
+      &--active
+        background-color: $color-acento-contenido
+
+.tarjeta-flip--cuadrada
+  .tarjeta-flip__contenedor
+    padding-top: 100%
+  .tarjeta-flip__img, .tarjeta-flip__contenido
+    position: absolute
+    inset: 0
+  .tarjeta-flip__contenido
+    display: flex
+    flex-direction: column
+    justify-content: center
+
+
+.tarjeta-flip.color-acento-botones--borde
+  border: none
+  .tarjeta-flip__img, .tarjeta-flip__contenido
+    border: 3px solid $color-acento-botones
+
+.tarjeta-flip__titulo
+  position: absolute
+  bottom: 0
+  left: 0
+  right: 0
+  background-color: $color-acento-botones
