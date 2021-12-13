@@ -23,116 +23,44 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Producción gráfica',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Procesos de artes gráficas',
+            hash: 't1-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'Flujo de proceso',
+            hash: 't1-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Diseño',
+            hash: 't1-3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
+            titulo: 'Preprensa',
+            hash: 't1-4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
+            titulo: 'Impresión',
+            hash: 't1-5',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Posimpresión',
+            hash: 't1-6',
           },
         ],
       },
@@ -140,44 +68,26 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Formatos de salida',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
-            hash: 't_2_1',
+            titulo: 'Tipos y clasificación',
+            hash: 't2-1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
+            titulo: 'Medios impresos y digitales',
+            hash: 't2-2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
-            hash: 't_2_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.4',
-            titulo: 'Animación 2D',
-            hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
+            titulo: 'Sustratos',
+            hash: 't2-3',
           },
         ],
       },
@@ -185,55 +95,23 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Prevuelo',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
-            hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Clasificación de los hilos',
-            hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
-          },
-        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Premedia',
+        desarrolloContenidos: true,
       },
     ],
     subMenu: [
-      {
-        icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
-        nombreRuta: 'sintesis',
-      },
+      // {
+      //   icono: 'fas fa-sitemap',
+      //   titulo: 'Sintesis',
+      //   nombreRuta: 'sintesis',
+      // },
       {
         nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
@@ -270,140 +148,153 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Acosta, A., C. (2018). Medios digitales: herramientas útiles para el crecimiento de las empresas. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'http://www.entreperiodistas.com/medios-digitales-herramientas-utiles/',
     },
     {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+      referencia: 'Adobe. (2020). Rasterizado y vectorizado.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://helpx.adobe.com/es/photoshop-elements/key-concepts/raster-vector.html',
+    },
+    {
+      referencia: 'Bolina, L. (2 de marzo de 2020). ¿Qué es una Landing Page? ',
+      link: 'https://rockcontent.com/es/blog/landing-page/',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Dipe. (2020). Vectorizar imagen: qué es y qué utilidades tiene en diseño. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://blog.dipe.es/blog/vectorizar-imagen-que-es-y-que-utilidades-tiene-en-diseno/',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Hotmart. (2020). Medio digital: qué es, principales tipos y cómo usarlo. ',
+      link: 'https://blog.hotmart.com/es/medio-digital/',
     },
     {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+      referencia: 'Ionos. (2021). ¿Qué es un píxel? ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.ionos.es/digitalguide/paginas-web/diseno-web/que-es-un-pixel/',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
+        'Johanlenium. (2019). El proceso de preprensa, características e importancia.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'https://insumosesmar.com/es/el-proceso-de-preprensa-caracteristicas-e-importancia/',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Machuca, F. (2021) ¿Qué es el diseño gráfico? Te lo cuento sin cambios.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.crehana.com/co/blog/diseno-grafico/que-es-el-diseno-grafico/',
+    },
+    {
+      referencia:
+        'Printateca.es (2016) ¿Qué es la producción gráfica? El medio impreso. ',
+      link:
+        'https://www.printateca.es/blog/que-es-la-produccion-grafica-el-medio-impreso/',
+    },
+    {
+      referencia:
+        'Redacción Interempresas. (2016). Revisión de archivos y pruebas antes de imprimir.',
+      link:
+        'https://www.interempresas.net/Graficas/Articulos/154393-Revision-de-archivos-y-pruebas-antes-de-imprimir.html',
+    },
+    {
+      referencia:
+        'Romero, B. (2021). ¿Cuáles son los mejores tipos de formatos de imágenes que existen? ',
+      link: 'https://www.begoromero.com/formatos-de-imagen/',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
-      significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+      termino: 'CMYK',
+      significado: 'separación en cian, magenta, amarillo y key (negro)',
     },
     {
-      termino: '<em>Suftware</em>',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'EPS',
+      significado: '<em>Encapsulates PostScript.</em>',
     },
     {
-      termino: 'Pirognóstico',
-      significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+      termino: 'GIF',
+      significado: '<em>Graphics Interchange Format.</em>',
     },
     {
-      termino: '<em>Áectores</em>',
-      significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+      termino: 'JPG',
+      significado: '<em>Joint Photographic Experts Group.</em>',
     },
     {
-      termino: 'Moda',
+      termino: 'Landing Page',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'también conocida como página de destino, tiene como foco principal la conversión de los visitantes. Son páginas con pocos elementos y enfocadas en un único CTA., evitando distracciones y garantizando la conversión deseada en tu estrategia de <em>Marketing</em> Digital (Laís, 2020).',
     },
     {
-      termino: 'Diseña',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'PDF',
+      significado: '<em>Portable Document Format.</em>',
     },
     {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+      termino: 'PNG',
+      significado: '<em>Portable Network Graphics.</em>',
     },
     {
-      termino: 'Tipología',
+      termino: 'Premedia',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'es preparar los archivos que van para multimedia, web, etc., así es la evolución y complementación de lo que se conoce como preprensa y que se aplica a los medios digitales.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Prevuelo',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'el término <em>pre-flight</em> es un término del campo de la aviación, donde se emplea para referirse al control y revisión del avión realizado por el piloto antes del despegue. En producción gráfica se usa este concepto para el control que se hace del original digital de impresión (también llamado arte final digital, <em>digital art work</em>) previamente a su salida a película o a forma de impresión (Cevagraf, 2013).',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Pixel',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'el píxel -o px, para abreviar- es el elemento más pequeño de una imagen reproducida digitalmente. En un monitor o en la pantalla de un teléfono móvil se suelen alinear varios píxeles en una trama. La combinación de varios píxeles constituye una imagen rasterizada (Ionos, 2021).',
     },
     {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+      termino: 'SVG',
+      significado: '<em>Scalable Vector Graphics.</em>',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'TIFF',
+      significado: '<em>Tagged Image Film Format.</em>',
+    },
+    {
+      termino: 'Vectorizar ',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'el proceso de vectorizar se basa en hacer una conversión de una imagen creada con píxeles (como puede ser en los formatos más comunes, como PNG o JPEG) a una imagen vectorial (en formatos como EPS, EMF o SVG). Es decir, que vectorizar imagen consiste en hacer la transformación de esos píxeles que componen la imagen, a vectores (Dipe, 2020).',
     },
   ],
   complementario: [
-    {
-      texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
-    },
-    {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
-    },
-    {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    },
-    {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
-    },
+    // {
+    //   texto:
+    //     'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
+    //   tipo: 'Video',
+    //   link: 'https://www.google.com/',
+    // },
+    // {
+    //   texto:
+    //     'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
+    //   tipo: 'Página web',
+    //   descarga: '/downloads/prueba.pdf',
+    // },
+    // {
+    //   texto:
+    //     'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
+    //   tipo: 'Artículo científico',
+    //   link: 'https://www.google.com/',
+    // },
+    // {
+    //   texto: 'Economía de Rosquilla. (s.f.).',
+    //   tipo: 'Página web',
+    //   descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+    // },
+    // {
+    //   texto: '2 minutos para entender el desarrollo sostenible – Spanish',
+    //   tipo: 'Video',
+    //   link: ['https://www.google.com/', 'https://www.google.com/'],
+    // },
   ],
   creditos: {
     liderEquipo: [

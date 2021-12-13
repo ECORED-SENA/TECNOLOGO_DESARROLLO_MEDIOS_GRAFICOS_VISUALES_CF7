@@ -43,7 +43,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t2-1.titulo-segundo.color-secundario
       h2 2.1 Tipos y clasificación
 
     p.mb-5 Realizado el análisis correspondiente entre una imagen digital y una imagen vectorial, a continuación se describen los formatos gráficos en los cuales se pueden guardar las imágenes:
@@ -194,7 +194,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t2-2.titulo-segundo.color-secundario
       h2 2.2 Medios impresos y digitales
 
     p.mb-5 Ahora, se estudiará cuál es la diferencia entre los medios impresos y los digitales.
@@ -695,7 +695,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t2-3.titulo-segundo.color-secundario
       h2 2.3 Sustratos
 
     .row.justify-content-center.mb-5

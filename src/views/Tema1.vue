@@ -21,7 +21,7 @@
     
     separador
 
-    .titulo-segundo.color-secundario
+    #t1-1.titulo-segundo.color-secundario
       h2 1.1 Procesos de artes gráficas
 
 
@@ -211,7 +211,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t1-2.titulo-segundo.color-secundario
       h2 1.2 Flujo de proceso
 
     p.mb-5 Este se puede definir como la ruta que se lleva a cabo desde el arribo de la materia prima hasta la elaboración del producto final. A continuación, se presenta un diagrama de flujo de proceso.
@@ -328,7 +328,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t1-3.titulo-segundo.color-secundario
       h2 1.3 Diseño
 
     .tarjeta.color-secundario--claro.p-5.mb-5.shadow
@@ -400,7 +400,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t1-4.titulo-segundo.color-secundario
       h2 1.4 Preprensa
 
     p.mb-5 La preprensa, también conocida como preimpresión, es la etapa en el proceso de producción gráfica, después del diseño, donde se organizan todos los elementos del diseño previos a la impresión. En esta etapa:
@@ -530,7 +530,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t1-5.titulo-segundo.color-secundario
       h2 1.5 Impresión
 
     .row.justify-content-center.mb-5
@@ -549,7 +549,7 @@
 
     separador
 
-    .titulo-segundo.color-secundario
+    #t1-6.titulo-segundo.color-secundario
       h2 1.6 Posimpresión
 
     .row.justify-content-center.align-items-center.mb-5
