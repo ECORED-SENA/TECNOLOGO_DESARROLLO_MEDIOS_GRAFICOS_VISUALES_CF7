@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 50 50" style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#Trazado_115638_00000004516191879318368390000000290319780054098090_);}
+	.st1{fill:url(#Trazado_115639_00000039846031582535998260000000655132526165006744_);}
+	.st2{fill:url(#Trazado_115640_00000116197318795272914730000009771471007692432006_);}
+	.st3{fill:url(#Trazado_115641_00000129906779413449630300000013636842511209067150_);}
+</style>
+<g id="Grupo_82128" transform="translate(17.825 -177.305)">
+	
+		<linearGradient id="Trazado_115638_00000034799726893437579110000017282561226660494504_" gradientUnits="userSpaceOnUse" x1="-660.6733" y1="515.7958" x2="-659.3206" y2="517.1583" gradientTransform="matrix(39.309 0 0 -17.144 25935.418 9079.2568)">
+		<stop  offset="0" style="stop-color:#26CCDA"/>
+		<stop  offset="1" style="stop-color:#054F56"/>
+	</linearGradient>
+	<path id="Trazado_115638" style="fill:url(#Trazado_115638_00000034799726893437579110000017282561226660494504_);" d="M32.2,212.7
+		L7.8,225.6l-18.1-5.7L14,207L32.2,212.7z"/>
+	
+		<linearGradient id="Trazado_115639_00000116930749460453866480000006882465188040863671_" gradientUnits="userSpaceOnUse" x1="-654.08" y1="530.1454" x2="-652.5024" y2="528.8024" gradientTransform="matrix(29.468 0 0 -37.737 19267.8535 20200.4492)">
+		<stop  offset="0" style="stop-color:#26CCDA"/>
+		<stop  offset="1" style="stop-color:#10909B"/>
+	</linearGradient>
+	<path id="Trazado_115639" style="fill:url(#Trazado_115639_00000116930749460453866480000006882465188040863671_);" d="M14,207
+		l-24.4,12.8l-7.5-28l24.4-12.8L14,207z"/>
+	<g id="Grupo_82127" transform="translate(4.711 177.305)">
+		
+			<linearGradient id="Trazado_115640_00000163783725107892943110000003910842750832974479_" gradientUnits="userSpaceOnUse" x1="-652.4235" y1="351.1289" x2="-653.8314" y2="349.695" gradientTransform="matrix(23.703 0 0 -31.132 15495.4482 10927.9805)">
+			<stop  offset="0" style="stop-color:#26CCDA"/>
+			<stop  offset="1" style="stop-color:#18868F"/>
+		</linearGradient>
+		<path id="Trazado_115640" style="fill:url(#Trazado_115640_00000163783725107892943110000003910842750832974479_);" d="M20,7.5
+			l7.5,28L9.3,29.7l-7.5-28L20,7.5z"/>
+	</g>
+	
+		<linearGradient id="Trazado_115641_00000093138976708665898530000003341532026401430447_" gradientUnits="userSpaceOnUse" x1="-576.2606" y1="524.5753" x2="-575.7231" y2="523.8259" gradientTransform="matrix(6.592 0 0 -24.59 3807.6807 13085.21)">
+		<stop  offset="0" style="stop-color:#FFFFFF"/>
+		<stop  offset="1" style="stop-color:#E07612"/>
+	</linearGradient>
+	<path id="Trazado_115641" style="fill:url(#Trazado_115641_00000093138976708665898530000003341532026401430447_);" d="M6.9,180.4
+		L14,207C14,207,10.8,190.6,6.9,180.4z"/>
+</g>
+</svg>

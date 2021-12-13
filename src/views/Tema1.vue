@@ -10,7 +10,6 @@
 
     .row.justify-content-center
       .col-lg-10
-        
         .bloque-texto-g.bloque-texto-g--reverse.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t1-01.png')})`}"

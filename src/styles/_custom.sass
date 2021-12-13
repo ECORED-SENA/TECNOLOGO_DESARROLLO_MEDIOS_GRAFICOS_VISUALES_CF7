@@ -56,3 +56,72 @@
   left: 0
   right: 0
   background-color: $color-acento-botones
+
+.img-infografica-b__modal__contenido
+  height: 100%
+  .tarjeta
+    *
+      color: $color-sistema-texto !important
+
+.texto-adorno
+  width: fit-content
+  position: relative
+  background-color: $color-secundario
+  &:before
+    content: url(../assets/curso/13.svg)
+    position: absolute
+    top: -40%
+    right: -10%
+    width: 46px
+
+.texto-adorno-pequeno
+  display: flex
+  align-items: center
+  &:before
+    content: url(../assets/curso/13.svg)
+    width: 25px
+    height: 25px
+    margin-right: 10px
+
+.bloque-texto-a.color-secundario
+  background-color: #E8E8E8
+
+
+
+
+.img-infografica-b__item
+  width: 3%
+  .img-infografica-b__item__dot:before
+    border: 3px solid white
+  &.color-primario
+    .img-infografica__item__dot, .img-infografica-b__item__dot
+      i
+        color: textColor($color-primario)
+      &:before, &:after
+        background-color: $color-primario
+    .img-infografica__item__numero
+      color: textColor($color-primario)
+  &.color-secundario
+    .img-infografica__item__dot, .img-infografica-b__item__dot
+      i
+        color: textColor($color-secundario)
+      &:before, &:after
+        background-color: $color-secundario
+    .img-infografica__item__numero
+      color: textColor($color-secundario)
+  &.color-acento-contenido
+    .img-infografica__item__dot, .img-infografica-b__item__dot
+      i
+        color: textColor($color-acento-contenido)
+      &:before, &:after
+        background-color: $color-acento-contenido
+    .img-infografica__item__numero
+      color: textColor($color-acento-contenido)
+  &.color-acento-botones
+    .img-infografica__item__dot, .img-infografica-b__item__dot
+      i
+        color: textColor($color-acento-botones)
+      &:before, &:after
+        background-color: $color-acento-botones
+    .img-infografica__item__numero
+      color: textColor($color-acento-botones)
