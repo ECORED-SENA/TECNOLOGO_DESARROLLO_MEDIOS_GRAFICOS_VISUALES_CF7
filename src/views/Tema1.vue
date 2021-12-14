@@ -461,7 +461,7 @@
               .tarjeta-flip__titulo.py-2
                 .h1.m-0.text-center - 3 -
 
-            .tarjeta-flip__contenido.p-4.p-xl-5
+            .tarjeta-flip__contenido.p-4
               p.text-center.mb-0 Se analiza la composición del diseño, es decir, lo que haya que mejorar para luego imprimirlo o si se requiere digitalizarlo para realizar las primeras pruebas de impresión.
 
       .col-8.col-sm-6.col-lg.col-xl-3.mb-4.mb-lg-0
