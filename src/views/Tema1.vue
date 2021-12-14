@@ -208,7 +208,7 @@
     p.mb-5 En la siguiente figura se aprecia un mapa conceptual del proceso de producción gráfica.
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura
+      h5 Figura 1
       span Proceso de producción de la industria gráfica
 
     img(src="@/assets/curso/t1-21.svg")
@@ -223,7 +223,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .titulo-sexto.color-acento-contenido
-          h5 Figura
+          h5 Figura 2
           span Proceso de producción de la industria gráfica
           
         img(src="@/assets/curso/t1-22.svg")
@@ -325,7 +325,7 @@
     p.mb-5 El siguiente diagrama muestra el flujo de proceso utilizado para la producción gráfica:
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura
+      h5 Figura 3
       span Producción gráfica, flujos de trabajo
       
     img(src="@/assets/curso/t1-tabla.svg")

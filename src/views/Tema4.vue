@@ -76,7 +76,7 @@
     p.mb-5 Con el fin de sintetizar el contenido de este componente formativo se presenta el siguiente mapa conceptual:
 
     .titulo-sexto.color-acento-contenido
-      h5 Figura
+      h5 Figura 4
       span Desarrollo de medios gráficos visuales - Procesos de producción gráfica
 
     img(src='@/assets/curso/t4-10.svg')
