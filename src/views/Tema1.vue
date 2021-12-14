@@ -21,19 +21,23 @@
     
     separador
 
-    #t1-1.titulo-segundo.color-secundario
+    #t1-1.titulo-segundo.color-acento-contenido
       h2 1.1 Procesos de artes gráficas
 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
-        p Cuando se habla de un proceso de producción gráfica, se hace referencia a un proceso donde se incorporan varias etapas en su desarrollo. Se comienza con un brief suministrado por el cliente y termina con la elaboración y entrega del producto impreso; la creación de un producto gráfico puede ser un libro, un catálogo, una revista, un afiche, un manual corporativo, un folleto, entre otros formatos previamente definidos.
+        p Cuando se habla de un proceso de producción gráfica, se hace referencia a un proceso donde se incorporan varias etapas en su desarrollo. Se comienza con un <em>brief</em> suministrado por el cliente y termina con la elaboración y entrega del producto impreso; la creación de un producto gráfico puede ser un libro, un catálogo, una revista, un afiche, un manual corporativo, un folleto, entre otros formatos previamente definidos.
         p.mb-0 En la actualidad se encuentran varias técnicas de impresión gráfica, es aquí donde se utilizan dependiendo de las necesidades del producto. Ejemplo de estas son:
       .col-8.col-lg
         img(src="@/assets/curso/t1-02.png")
 
 
     SlyderF.mb-5(columnas="col-lg-6 col-xl-4")
+      .tarjeta.color-acento-botones--borde.color-acento-botones
+        img(src="@/assets/curso/t1-03-a.png")
+        h2.p-2.mb-0.text-center Impresión <em>offset</em>
+
       .tarjeta.color-acento-botones--borde.color-acento-botones
         img(src="@/assets/curso/t1-03.png")
         h2.p-2.mb-0.text-center Fotomecánica
@@ -90,7 +94,7 @@
         h4 Planificación estratégica
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
-            p En esta etapa de inicio se realiza una reunión con el cliente para discutir aspectos, inquietudes acerca del brief. El cliente comunica al equipo de trabajo la información del proyecto, como por ejemplo el grupo objetivo, los objetivos, tirajes a producir, características de impresión y los tiempos de entrega.
+            p En esta etapa de inicio se realiza una reunión con el cliente para discutir aspectos, inquietudes acerca del <em>brief</em>. El cliente comunica al equipo de trabajo la información del proyecto, como por ejemplo el grupo objetivo, los objetivos, tirajes a producir, características de impresión y los tiempos de entrega.
           .col-8.col-lg
             img(src="@/assets/curso/t1-14.png")
 
@@ -211,7 +215,7 @@
 
     separador
 
-    #t1-2.titulo-segundo.color-secundario
+    #t1-2.titulo-segundo.color-acento-contenido
       h2 1.2 Flujo de proceso
 
     p.mb-5 Este se puede definir como la ruta que se lleva a cabo desde el arribo de la materia prima hasta la elaboración del producto final. A continuación, se presenta un diagrama de flujo de proceso.
@@ -227,7 +231,7 @@
     p.mb-5 En el proceso está vinculada la tecnología de fabricación. Dicho en otras palabras, son las formas de división y colaboración del trabajo existente, como se muestra a continuación: 
 
     .tarjeta.color-secundario--claro.p-4.p-lg-5.mb-5.shadow
-      LineaTiempoC.color-acento-contenido
+      LineaTiempoC.color-acento-botones
         .row.justify-content-center(titulo="Parte 1°")
           .col-xl-6.mb-4.mb-xl-0
             p El flujo de trabajo debe garantizar el funcionamiento del proceso de producción y la utilización acertada de los elementos materiales y humanos, en un proceso de producción gráfica, se puede tomar como ejemplo el proceso en una imprenta,
@@ -328,8 +332,32 @@
 
     separador
 
-    #t1-3.titulo-segundo.color-secundario
+    #t1-3.titulo-segundo.color-acento-contenido
       h2 1.3 Diseño
+
+
+
+    .row.justify-content-center.align-items-center
+      .col-lg-7.mb-4.mb-lg-0
+        p Se puede definir diseño gráfico como un proceso de funciones aplicadas para comunicar una idea y plasmarla, utilizando desde una imagen hasta cualquier medio visual como una revista, un libro, un catálogo, un poster, un afiche, y todos aquellos medios impresos posibles para su divulgación.
+        p Este proceso conlleva previamente unos objetivos planteados como definir el grupo objetivo al que se pretende comunicar, o el objetivo de la comunicación, en otras palabras, el diseño gráfico es una creación visual, donde se incorporan varios elementos en su creación para, posteriormente, iniciar un proceso de producción gráfica y así obtener un diseño impreso. 
+        p En el diseño orientar un proyecto requiere de una labor ardua entre el cliente y el equipo de creación, lo más importante es:
+
+        ul.lista-ul--color
+          li
+            i.fas.fa-check
+            p.mb-0 Solicitar al cliente un <em>briefing</em> para iniciar el proyecto.
+          li
+            i.fas.fa-check
+            p.mb-0 Tener claro la visión del proyecto.
+          li
+            i.fas.fa-check
+            p.mb-0 Saber lo que se quiere y para qué se quiere hacer.
+
+      .col-8.col-lg.mb-4.mb-lg-0
+        img(src="@/assets/curso/t1-27.png")
+    p De esta forma se tendrá un mejor desarrollo en el concepto de diseño para la producción gráfica.
+    p.mb-5 El diseño en el proceso gráfico es el punto de partida de la producción gráfica, pues aquí se crea el concepto gráfico representado en bocetos donde luego se realizan los ajustes necesarios para el proceso de impresión. Dentro del diseño se pueden encontrar varias categorías, aquí se mencionan las más comunes:
 
     .tarjeta.color-secundario--claro.p-5.mb-5.shadow
       SlyderA
@@ -400,7 +428,7 @@
 
     separador
 
-    #t1-4.titulo-segundo.color-secundario
+    #t1-4.titulo-segundo.color-acento-contenido
       h2 1.4 Preprensa
 
     p.mb-5 La preprensa, también conocida como preimpresión, es la etapa en el proceso de producción gráfica, después del diseño, donde se organizan todos los elementos del diseño previos a la impresión. En esta etapa:
@@ -468,7 +496,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Tratamientos
-            p.mb-0 Los tratamientos que se realizan en este proceso dependerán de muchos factores técnicos como por ejemplo el tipo de impresión que se va a realizar, si es impresión offset, litográfica o digital, se verifica el color, el tamaño, la resolución, el formato y todo lo que implique cada técnica de impresión. 
+            p.mb-0 Los tratamientos que se realizan en este proceso dependerán de muchos factores técnicos como por ejemplo el tipo de impresión que se va a realizar, si es impresión <em>offset</em>, litográfica o digital, se verifica el color, el tamaño, la resolución, el formato y todo lo que implique cada técnica de impresión. 
         
           .col-md-6
             figure
@@ -499,7 +527,7 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Obtención y validación de la impresión
-            p el proceso de validación varía para cada forma de impresión e implica procesos diferentes, en las formas CTF y CTP, se deben aplicar en función del perfil CMYK, para que puedan ser transferidas en una plancha y película por cada color, en el caso de la forma CTPrint es diferente, ya que la tecnología que utiliza en la impresión es de información variable. Aquí se enumeran las formas de conseguir la forma impresa:
+            p el proceso de validación varía para cada forma de impresión e implica procesos diferentes, en las formas CTF y CTP, se deben aplicar en función del perfil CMYK, para que puedan ser transferidas en una plancha y película por cada color, en el caso de la forma <em>CTPrint</em> es diferente, ya que la tecnología que utiliza en la impresión es de información variable. Aquí se enumeran las formas de conseguir la forma impresa:
         
             ul.lista-ul--color.mb-0
               li
@@ -513,7 +541,7 @@
                 | CTP - Filmación de plancha.
               li
                 i.fas.fa-check
-                | CTPrint/Press (impresión digital).
+                | <em>CTPrint/Press</em> (impresión digital).
           .col-md-6
             figure
               img(src="@/assets/curso/t1-43.png")
@@ -530,7 +558,7 @@
 
     separador
 
-    #t1-5.titulo-segundo.color-secundario
+    #t1-5.titulo-segundo.color-acento-contenido
       h2 1.5 Impresión
 
     .row.justify-content-center.mb-5
@@ -541,7 +569,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/t1-44.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 La impresión gráfica es el proceso mediante el cual se plasma un diseño previamente creado, en un material físico como el papel y cualquier acabado adicional que lleve. En las técnicas de impresión sobre papel existen tres (3) modelos tradicionales y bastante utilizados, está la impresión offset, la serigrafía y la impresión digital. Cada sistema de impresión se ajusta a las necesidades que requiere un proyecto y especialmente a los formatos de impresión. Los modelos de impresión que existen son:
+            p.mb-0 La impresión gráfica es el proceso mediante el cual se plasma un diseño previamente creado, en un material físico como el papel y cualquier acabado adicional que lleve. En las técnicas de impresión sobre papel existen tres (3) modelos tradicionales y bastante utilizados, está la impresión <em>offset</em>, la serigrafía y la impresión digital. Cada sistema de impresión se ajusta a las necesidades que requiere un proyecto y especialmente a los formatos de impresión. Los modelos de impresión que existen son:
     
     figure
       .video
@@ -549,7 +577,7 @@
 
     separador
 
-    #t1-6.titulo-segundo.color-secundario
+    #t1-6.titulo-segundo.color-acento-contenido
       h2 1.6 Posimpresión
 
     .row.justify-content-center.align-items-center.mb-5
@@ -609,7 +637,7 @@
                 .h3.m-0.text-center 1. Tratamiento de superficie
             .tarjeta-flip__contenido.p-4.p-xl-5
               h3.text-center 1. Tratamiento de superficie
-              p.text-center.mb-0 El diseño pasa por varias revisiones.
+              p.text-center.mb-0 Esta función hace referencia a la protección del producto protegerlo de suciedades, y lo prepara para los acabados que lleve el producto impreso.
 
       .col-sm-8.col-lg-6.col-xl-4.mb-4
         .tarjeta.tarjeta-flip.tarjeta-flip--cuadrada.color-acento-botones--borde(@mouseover="indicadorTarjetaFlip3 = false")

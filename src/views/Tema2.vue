@@ -43,7 +43,7 @@
 
     separador
 
-    #t2-1.titulo-segundo.color-secundario
+    #t2-1.titulo-segundo.color-acento-contenido
       h2 2.1 Tipos y clasificación
 
     p.mb-5 Realizado el análisis correspondiente entre una imagen digital y una imagen vectorial, a continuación se describen los formatos gráficos en los cuales se pueden guardar las imágenes:
@@ -71,7 +71,7 @@
                 img(src='@/assets/curso/t2-10.svg')
             .col-md
               h5 Formato PDF
-              p.mb-0 PDF (Portable Document Format) es un formato muy práctico a la hora de compartir archivos, publicar en internet y también para impresión de documentos, el programa usado para abrir los archivos es Adobe Acrobat, los archivos se pueden guardar vectorizados, es compatible con Illustrator y Photoshop, pues si un archivo se guarda vectorizado en PDF, al abrirlo con illustrator se encontrará vectorizado de la misma forma, es decir que al guardar un vector en PDF no se convertirá en una imagen rasterizada.
+              p.mb-0 PDF (<em>Portable Document Format</em>) es un formato muy práctico a la hora de compartir archivos, publicar en internet y también para impresión de documentos, el programa usado para abrir los archivos es Adobe Acrobat, los archivos se pueden guardar vectorizados, es compatible con Illustrator y Photoshop, pues si un archivo se guarda vectorizado en PDF, al abrirlo con illustrator se encontrará vectorizado de la misma forma, es decir que al guardar un vector en PDF no se convertirá en una imagen rasterizada.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="60%" y="96.7%" tooltip="Extensión SVG")
         .tarjeta.tarjeta--blanca.p-4.p-lg-5
@@ -81,7 +81,7 @@
                 img(src='@/assets/curso/t2-08.svg')
             .col-md
               h5 Extensión SVG
-              p.mb-0 La extensión SVG (Scalable Vector Graphics), se implementa en los navegadores como Chrome, Safari, Firefox, gracias a que es un formato no tan pesado y no pierde calidad, tiene una característica especial: permite incorporar animaciones en la misma imagen. Este formato es muy amigable con Google ya que permite indexar fácil y así mejorar el posicionamiento SEO.
+              p.mb-0 La extensión SVG (<em>Scalable Vector Graphics</em>), se implementa en los navegadores como Chrome, Safari, Firefox, gracias a que es un formato no tan pesado y no pierde calidad, tiene una característica especial: permite incorporar animaciones en la misma imagen. Este formato es muy amigable con Google ya que permite indexar fácil y así mejorar el posicionamiento SEO.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="92.5%" y="96.7%" tooltip="Formato EPS")
         .tarjeta.tarjeta--blanca.p-4.p-lg-5
@@ -91,7 +91,7 @@
                 img(src='@/assets/curso/t2-09.svg')
             .col-md
               h5 Formato EPS
-              p.mb-0 Este formato EPS (encapsulados PostScript), es un tipo de formato muy utilizado para subir archivos vectoriales en internet, estos archivos permiten abrirlos con Illustrator, Photoshop y demás programas vectoriales existentes, una vez se abre, se pueden realizar modificaciones en el programa, y si se necesitan imprimir los archivos pe pueden exportar a otros formatos especiales para impresión como PNG, JPG o PDF.
+              p.mb-0 Este formato EPS (<em>encapsulados PostScript</em>), es un tipo de formato muy utilizado para subir archivos vectoriales en internet, estos archivos permiten abrirlos con Illustrator, Photoshop y demás programas vectoriales existentes, una vez se abre, se pueden realizar modificaciones en el programa, y si se necesitan imprimir los archivos pe pueden exportar a otros formatos especiales para impresión como PNG, JPG o PDF.
 
     .texto-adorno.px-4.py-2.mb-5
       h4.mb-0.me-3 Imágenes rasterizadas
@@ -101,7 +101,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Formato JPG
-            p La extensión JPG (Joint Photographic Experts Group), es el formato más popular y talvez el más utilizado para guardar imágenes, es un formato de compresión de imágenes, a la hora de utilizarlo es importante saber la calidad de compresión que se va a utilizar, ya que comprime bastante haciendo que se pierda calidad en una imagen, es muy utilizado para subir imágenes optimizadas a internet en modo de color RGB, también se puede guardar una imagen para impresión e modo de color CMYK y darle una resolución óptima y luego guardar en formato JPG.
+            p La extensión JPG (<em>Joint Photographic Experts Group</em>), es el formato más popular y talvez el más utilizado para guardar imágenes, es un formato de compresión de imágenes, a la hora de utilizarlo es importante saber la calidad de compresión que se va a utilizar, ya que comprime bastante haciendo que se pierda calidad en una imagen, es muy utilizado para subir imágenes optimizadas a internet en modo de color RGB, también se puede guardar una imagen para impresión e modo de color CMYK y darle una resolución óptima y luego guardar en formato JPG.
             p 
               b Ejemplo JPG: 
               | En el ejemplo se utiliza el programa Photoshop, una vez se cambia el modo de color se puede guardar el archivo en la extensión JPG para impresión, aunque a la hora de guardar un archivo óptimo para impresión existen otros formatos con menos compresión, así se ganará más calidad. Siempre es importante tener claro para que se va a utilizar una imagen, con ello se determinará la mejor opción del tipo de formato a utilizar.
@@ -114,7 +114,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Formato PNG
-            p El formato PNG (Portable Network Graphics) tiene una particularidad muy especial ya que permite guardar las imágenes con transparencia en sus fondos sin perder calidad, se utiliza para guardar logos. Este formato se puede utilizar para publicar imágenes en la web y también para impresión, se debe tener claro que para internet se deben utilizar imágenes óptimas de carga rápida, este formato no comprime tanto como el formato JPG.
+            p El formato PNG (<em>Portable Network Graphics</em>) tiene una particularidad muy especial ya que permite guardar las imágenes con transparencia en sus fondos sin perder calidad, se utiliza para guardar logos. Este formato se puede utilizar para publicar imágenes en la web y también para impresión, se debe tener claro que para internet se deben utilizar imágenes óptimas de carga rápida, este formato no comprime tanto como el formato JPG.
             p En el formato PNG se pueden guardar los archivos en dos opciones PNG 8 y PNG 24. En la opción PNG 8, tiene color de 8 bits, muestra 256 colores, es menor el tamaño debido a la información. En la opción PNG 24, tiene 24 bits, muestra 16 millones de colores, es decir que la calidad de imagen es mejor, pero las imágenes son más pesadas.
             p 
               b Ejemplo PNG: 
@@ -128,7 +128,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Formato BMP
-            p El formato BMP (bitmap) fue creado por Windows, el formato de mapa de bits posee una extensión simple; es un formato que comprime a una buena calidad la imagen, pero en la actualidad ha perdido protagonismo con los formatos JPG y PNG, ya que los archivos en BMP son más pesados.
+            p El formato BMP (<em>bitmap</em>) fue creado por Windows, el formato de mapa de bits posee una extensión simple; es un formato que comprime a una buena calidad la imagen, pero en la actualidad ha perdido protagonismo con los formatos JPG y PNG, ya que los archivos en BMP son más pesados.
         
           .col-lg-6
             .row.justify-content-center
@@ -140,7 +140,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Formato TIFF
-            p El formato TIFF (Tagged Image Filme Format) es un formato especial para impresión gracias a la capacidad de guardar imágenes con muchos colores y detalles, como fotografías de alta resolución; permite almacenar imágenes con 32 bits de colores, su tamaño es alto y no ocasiona pérdida en la calidad de imágenes al comprimirse. Este formato es adecuado para impresión de imágenes y no recomendado para imágenes que se quieran publicar en internet por su peso tan alto.
+            p El formato TIFF (<em>Tagged Image Filme Format</em>) es un formato especial para impresión gracias a la capacidad de guardar imágenes con muchos colores y detalles, como fotografías de alta resolución; permite almacenar imágenes con 32 bits de colores, su tamaño es alto y no ocasiona pérdida en la calidad de imágenes al comprimirse. Este formato es adecuado para impresión de imágenes y no recomendado para imágenes que se quieran publicar en internet por su peso tan alto.
         
           .col-lg-6
             .row.justify-content-center
@@ -152,7 +152,7 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Formato GIF
-            p El formato GIF (Graphics Interchange Format) es un formato muy utilizado ya que permite comprimir animaciones, es muy utilizado en internet, redes sociales, al crear una animación y luego exportarla al formato GIF, solo con dar clic se puede ver la animación creada. Usualmente se pueden encontrar emoticonos, stickers en algunas redes sociales en formato GIF.
+            p El formato GIF (<em>Graphics Interchange Format</em>) es un formato muy utilizado ya que permite comprimir animaciones, es muy utilizado en internet, redes sociales, al crear una animación y luego exportarla al formato GIF, solo con dar clic se puede ver la animación creada. Usualmente se pueden encontrar emoticonos, stickers en algunas redes sociales en formato GIF.
             p 
               b Ejemplo GIF: 
               | Previamente se realiza la acción de movimiento en un programa como Photoshop y posteriormente se exporta con la extensión GIF.
@@ -178,8 +178,8 @@
       .py-4.py-md-5(titulo="Formato RAW" :icono="require('@/assets/curso/t2-17.svg')")
         .row
           .col-lg-6.mb-4.mb-lg-0
-            h4 Formato RAW
-            p El formato RAW (en crudo), es creado para las cámaras digitales de formato réflex que captura la información de las cámaras tal cual se realiza la toma, es compatible con Photoshop y no comprime las fotografías, así que las procesa en alta calidad.
+            h4 Formato <em>RAW</em>
+            p El formato <em>RAW</em> (en crudo), es creado para las cámaras digitales de formato réflex que captura la información de las cámaras tal cual se realiza la toma, es compatible con Photoshop y no comprime las fotografías, así que las procesa en alta calidad.
 
           .col-lg-6
             .row.justify-content-center
@@ -194,7 +194,7 @@
 
     separador
 
-    #t2-2.titulo-segundo.color-secundario
+    #t2-2.titulo-segundo.color-acento-contenido
       h2 2.2 Medios impresos y digitales
 
     p.mb-5 Ahora, se estudiará cuál es la diferencia entre los medios impresos y los digitales.
@@ -247,7 +247,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
-        p La palabra libro procede del latín Liber, que era el nombre que se le daba a la parte interna de la corteza de los árboles. Los pueblos antiguos utilizaban hojas de palma, corteza de árboles y papiros, hasta que en el 200 a.C. los chinos inventaron el papel. El libro se define como el conjunto compuesto por hojas de papel, pergamino, tela, vitela o de otro material similar, que se organizan uniéndose por un lado mediante la encuadernación y protegidas con una tapa o cubierta, creando un volumen.
+        p La palabra libro procede del latín <em>Liber</em>, que era el nombre que se le daba a la parte interna de la corteza de los árboles. Los pueblos antiguos utilizaban hojas de palma, corteza de árboles y papiros, hasta que en el 200 a.C. los chinos inventaron el papel. El libro se define como el conjunto compuesto por hojas de papel, pergamino, tela, vitela o de otro material similar, que se organizan uniéndose por un lado mediante la encuadernación y protegidas con una tapa o cubierta, creando un volumen.
         p 
           b Según la Organización de las Naciones Unidas para la Educación, la Ciencia y la Cultura, Unesco, 
           | para hablar de libro es necesario que tenga más de 50 hojas, pues si tiene entre 5 y 49 hojas se habla de un folleto. La Unesco tiene como uno de sus objetivos, la protección del saber incluido en los libros, que son bienes culturales. También se denomina libro a una obra de gran extensión que se publica en varios tomos o volúmenes.
@@ -433,7 +433,7 @@
               img(src="@/assets/curso/t2-30.svg")
             .col-lg
               h5 Pie de imprenta
-              p.mb-0 O masterhead a veces se pone en la parte delantera de la revista o en la posterior. Contiene la lista de todas las personas que intervienen en la revista, redacción, ventas, anuncios, editores, etc. El logo de la revista se ubica preferencialmente en la parte superior de la revista.
+              p.mb-0 O <em>masterhead</em> a veces se pone en la parte delantera de la revista o en la posterior. Contiene la lista de todas las personas que intervienen en la revista, redacción, ventas, anuncios, editores, etc. El logo de la revista se ubica preferencialmente en la parte superior de la revista.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="39%" y="90%" claseBoton="color-secundario")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
@@ -451,7 +451,7 @@
               img(src="@/assets/curso/t2-32.svg")
             .col-lg
               h5 Artículos
-              p.mb-0 es básicamente el cuerpo de la revista, algunos artículos son breves otros son extensos. Al organizar la revista se deben intercalar los artículos largos con los cortos, para hacer más amena la lectura.
+              p.mb-0 Es básicamente el cuerpo de la revista, algunos artículos son breves otros son extensos. Al organizar la revista se deben intercalar los artículos largos con los cortos, para hacer más amena la lectura.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="87%" y="90%" claseBoton="color-secundario")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
@@ -460,14 +460,14 @@
               img(src="@/assets/curso/t2-33.svg")
             .col-lg
               h5 Parte posterior
-              p.mb-0 contiene artículos muy cortos, noticias, horóscopo, anuncios clasificados siendo de una estructura rígida y su diseño cambia muy poco.  La última página se reserva casi siempre para el columnista, una entrevista corta o un contenido relajante.
+              p.mb-0 Contiene artículos muy cortos, noticias, horóscopo, anuncios clasificados siendo de una estructura rígida y su diseño cambia muy poco.  La última página se reserva casi siempre para el columnista, una entrevista corta o un contenido relajante.
 
     .texto-adorno-pequeno.mb-5
       h4.mb-0 Periódico
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7.mb-4.mb-lg-0
-        p Es una publicación masiva, impresa o digital que se publica regularmente para mantener informados a sus lectores acerca de los aspectos, hechos y sucesos más importantes de la actualidad nacional e internacional; además de noticias, se publican opiniones y comentarios, se proporciona información en diferentes ámbitos, incluye tiras cómicas, crucigramas, sudokus y artículos literarios.
+        p Es una publicación masiva, impresa o digital que se publica regularmente para mantener informados a sus lectores acerca de los aspectos, hechos y sucesos más importantes de la actualidad nacional e internacional; además de noticias, se publican opiniones y comentarios, se proporciona información en diferentes ámbitos, incluye tiras cómicas, crucigramas, <em>sudokus</em> y artículos literarios.
         p El periódico puede tener circulación nacional, regional o local. Conforme al intervalo de tiempo con el que se publique, tiene un nombre:
         ul.lista-ul--color.ps-4.mb-0
           li
@@ -657,7 +657,7 @@
         h4 Blog
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
-            p Este medio digital tiene como finalidad la interacción con los usuarios a partir de la creación de contenidos, es muy usado en las estrategias de marketing digital para compartir información y fidelizar usuarios.
+            p Este medio digital tiene como finalidad la interacción con los usuarios a partir de la creación de contenidos, es muy usado en las estrategias de <em>marketing</em> digital para compartir información y fidelizar usuarios.
           .col-8.col-lg
             img(src="@/assets/curso/t2-41.png")
 
@@ -666,9 +666,7 @@
           em (Landing Page)
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
-            p En las estrategias de 
-              em marketing 
-              | digital se usan a menudo, es común verlas en la publicidad de tiendas online, por ejemplo, un usuario ingresa a Google y realiza una búsqueda de guitarras, en los resultados una página de aterrizaje puede llevar directamente valga la expresión a que el usuario aterrice directamente en la sección de guitarras, sin que previamente tenga que ingresar al home o inicio de la página y tener que buscar la sección de guitarras. Es llevar al usuario directamente a la acción, persuadirlo a la compra.
+            p En las estrategias de <em>marketing</em> digital se usan a menudo, es común verlas en la publicidad de tiendas online, por ejemplo, un usuario ingresa a Google y realiza una búsqueda de guitarras, en los resultados una página de aterrizaje puede llevar directamente valga la expresión a que el usuario aterrice directamente en la sección de guitarras, sin que previamente tenga que ingresar al home o inicio de la página y tener que buscar la sección de guitarras. Es llevar al usuario directamente a la acción, persuadirlo a la compra.
           .col-8.col-lg
             img(src="@/assets/curso/t2-42.png")
 
@@ -676,15 +674,15 @@
         h4 Redes sociales
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
-            p Son aplicaciones para que los usuarios interactúen entre sí de forma virtual, hoy en día las redes sociales no solamente están creadas para ocio, también están en función del marketing digital, las empresas pueden diseñar campañas de publicidad para pautarlas en las redes sociales un ejemplo de esto es (Facebook, Instagram, Twitter, TikTok). Cada red social tiene sus propias características y formatos de diseño, esto es importante tenerlo en cuenta a la hora de diseñar piezas digitales. 
+            p Son aplicaciones para que los usuarios interactúen entre sí de forma virtual, hoy en día las redes sociales no solamente están creadas para ocio, también están en función del <em>marketing</em> digital, las empresas pueden diseñar campañas de publicidad para pautarlas en las redes sociales un ejemplo de esto es (Facebook, Instagram, Twitter, TikTok). Cada red social tiene sus propias características y formatos de diseño, esto es importante tenerlo en cuenta a la hora de diseñar piezas digitales. 
           .col-8.col-lg
             img(src="@/assets/curso/t2-43.png")
 
-      .tarjeta.color-secundario--claro.p-5(titulo="Videos online")
-        h4 Videos online
+      .tarjeta.color-secundario--claro.p-5(titulo="Videos <em>online</em>")
+        h4 Videos <em>online</em>
         .row.justify-content-center
           .col-lg-6.mb-4.mb-md-0
-            p En el marketing digital, los videos online juegan un papel importante como medio digital, ya que dentro de las estrategias de comunicación se implementan por empresas para persuadir y llegar al grupo objetivo.
+            p En el <em>marketing</em> digital, los videos <em>online</em> juegan un papel importante como medio digital, ya que dentro de las estrategias de comunicación se implementan por empresas para persuadir y llegar al grupo objetivo.
           .col-8.col-lg
             img(src="@/assets/curso/t2-44.png")
 
@@ -695,7 +693,7 @@
 
     separador
 
-    #t2-3.titulo-segundo.color-secundario
+    #t2-3.titulo-segundo.color-acento-contenido
       h2 2.3 Sustratos
 
     .row.justify-content-center.mb-5
@@ -739,7 +737,7 @@
       .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="24%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Bond
-          p.mb-0 es un papel fuerte, de alta calidad y resistente. Es el papel utilizado comúnmente para las copias en las máquinas fotocopiadoras, siendo el de 75 gr, el más utilizado por estas. En las artes gráficas se utiliza para las hojas membretadas, volantes o flyers a una o varias tintas, sobres de correspondencia, también se utiliza para las notas, anuncios, manuales, folletos, boletines, informes, papelería personalizada, talonarios o factureros, catálogos, revistas, libros y anuncios, existen varios gramajes como se presenta a continuación:
+          p.mb-0 Es un papel fuerte, de alta calidad y resistente. Es el papel utilizado comúnmente para las copias en las máquinas fotocopiadoras, siendo el de 75 gr, el más utilizado por estas. En las artes gráficas se utiliza para las hojas membretadas, volantes o flyers a una o varias tintas, sobres de correspondencia, también se utiliza para las notas, anuncios, manuales, folletos, boletines, informes, papelería personalizada, talonarios o factureros, catálogos, revistas, libros y anuncios, existen varios gramajes como se presenta a continuación:
 
       .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="41.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
@@ -748,18 +746,18 @@
 
       .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="58.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
-          h3 Papel químico
-          p.mb-0 El papel químico o auto copiante es aquel que no requiere papel carbón para pasar del original a la copia al escribir. Su gramaje es 60. Viene en blanco para el original y en colores pasteles para la copia.
+          h3 Papel propalcote – esmaltados
+          p.mb-0 Es un papel muy liso en el que se puede trabajar muy bien la tinta, ya que tiene un acabado semisatinado; tiene la desventaja de que los trabajos a lápiz tienden a ensuciarse un poco. Se emplea principalmente en litografía, en etiquetas de envases, libros, revistas, folletos, volantes, papel regalo y empaques.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="76%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
-          h3 Papel propalcote – esmaltados
-          p.mb-0 Es un papel muy liso en el que se puede trabajar muy bien la tinta, ya que tiene un acabado semisatinado; tiene la desventaja de que los trabajos a lápiz tienden a ensuciarse un poco. Se emplea principalmente en litografía, en etiquetas de envases, libros, revistas, folletos, volantes, papel regalo y empaques.
+          h3 Papel químico
+          p.mb-0 El papel químico o auto copiante es aquel que no requiere papel carbón para pasar del original a la copia al escribir. Su gramaje es 60. Viene en blanco para el original y en colores pasteles para la copia.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="93.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Cartulinas - Bristol
-          p.mb-0 útil para tarjetas para contabilidad, carnets, separadores de libros, insertos en revistas, cuadernos de dibujo, álbumes para fotografía y trabajos manuales. Implementos de oficina: ficheros, kárdex, tarjetas de reloj. También usadas en plegadizas para alimentos, fósforos. Son vistas en moldes de modistería y, en ocasiones, son unidas para lograr un material más fuerte pero dobladizo.
+          p.mb-0 Útil para tarjetas para contabilidad, carnets, separadores de libros, insertos en revistas, cuadernos de dibujo, álbumes para fotografía y trabajos manuales. Implementos de oficina: ficheros, kárdex, tarjetas de reloj. También usadas en plegadizas para alimentos, fósforos. Son vistas en moldes de modistería y, en ocasiones, son unidas para lograr un material más fuerte pero dobladizo.
 
 
       .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="6.5%")
@@ -770,7 +768,7 @@
       .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="24%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel adhesivo
-          p.mb-0 Principalmente utilizados en etiquetas de empaques, envases y botellas, caramelos de cartillas y cualquier tipo de sticker, como: 
+          p.mb-0 Principalmente utilizados en etiquetas de empaques, envases y botellas, caramelos de cartillas y cualquier tipo de <em>sticker</em>, como: 
 
       .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="41.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
@@ -780,7 +778,7 @@
       .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="58.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Opalina
-          p.mb-0 papel relativamente nuevo, originalmente diseñado para todo tipo de impresión, elaborado de pulpa de madera, presenta un acabado liso y en algunos casos gofrado; se usa principalmente para tarjetería.
+          p.mb-0 Papel relativamente nuevo, originalmente diseñado para todo tipo de impresión, elaborado de pulpa de madera, presenta un acabado liso y en algunos casos gofrado; se usa principalmente para tarjetería.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="76%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
