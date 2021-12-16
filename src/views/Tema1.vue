@@ -224,7 +224,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido
           h5 Figura 2
-          span Proceso de producción de la industria gráfica
+          span Diagrama de flujo de proceso
           
         img(src="@/assets/curso/t1-22.svg")
 
