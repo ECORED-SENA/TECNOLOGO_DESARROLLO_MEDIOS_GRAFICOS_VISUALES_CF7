@@ -267,34 +267,12 @@ export default {
     },
   ],
   complementario: [
-    // {
-    //   texto:
-    //     'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-    //   tipo: 'Video',
-    //   link: 'https://www.google.com/',
-    // },
-    // {
-    //   texto:
-    //     'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-    //   tipo: 'Página web',
-    //   descarga: '/downloads/prueba.pdf',
-    // },
-    // {
-    //   texto:
-    //     'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-    //   tipo: 'Artículo científico',
-    //   link: 'https://www.google.com/',
-    // },
-    // {
-    //   texto: 'Economía de Rosquilla. (s.f.).',
-    //   tipo: 'Página web',
-    //   descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
-    // },
-    // {
-    //   texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-    //   tipo: 'Video',
-    //   link: ['https://www.google.com/', 'https://www.google.com/'],
-    // },
+    {
+      texto:
+        'Universidad de Israel (13 de abril de 2016) Capítulo I La Industria Gráfica',
+      tipo: 'PDF',
+      descarga: '/downloads/anexo2_cf007_capitulo_i_la_industria_grafica.pdf',
+    },
   ],
   creditos: {
     liderEquipo: [
@@ -377,6 +355,42 @@ export default {
       },
       {
         nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Zuleidy Maria Ruiz Torres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Wilson Andrés Arenales Caceres',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Gilberto Junior Rodriguez Rodriguez',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'María Carolina Tamayo López',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Carlos Eduardo Garavito Parada',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Jessica Moreno Realpe',
         cargo: 'Producción audiovisual',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
