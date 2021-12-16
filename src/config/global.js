@@ -354,12 +354,6 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
-        cargo: 'Producción audiovisual',
-        centro:
-          'Centro Industrial del Diseño y la Manufactura Regional Santander',
-      },
-      {
         nombre: 'Zuleidy Maria Ruiz Torres',
         cargo: 'Producción audiovisual',
         centro:
