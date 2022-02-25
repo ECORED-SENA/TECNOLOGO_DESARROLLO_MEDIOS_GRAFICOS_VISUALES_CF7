@@ -261,7 +261,7 @@ export default {
       significado: '<em>Tagged Image Film Format.</em>',
     },
     {
-      termino: 'Vectorizar ',
+      termino: 'Vectorizar',
       significado:
         'el proceso de vectorizar se basa en hacer una conversión de una imagen creada con píxeles (como puede ser en los formatos más comunes, como PNG o JPEG) a una imagen vectorial (en formatos como EPS, EMF o SVG). Es decir, que vectorizar imagen consiste en hacer la transformación de esos píxeles que componen la imagen, a vectores (Dipe, 2020).',
     },

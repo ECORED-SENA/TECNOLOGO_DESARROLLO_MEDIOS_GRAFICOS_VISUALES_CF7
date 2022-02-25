@@ -149,7 +149,7 @@
         h4 Pruebas de color
         .row.justify-content-center
           .col-xl-6.mb-4.mb-xl-0
-            p En los procesos para la producción gráfica es importante cada etapa, con el fin de obtener un producto final optimo y un cliente satisfecho. Las pruebas de color son de suma importancia ya que ayudaran a definir las tonalidades de colores corporativos de una empresa, o la textura de una imagen, muchas veces lo que se ve en el monitor tiende a variar un poco, así que la mejor opción que se tiene son las pruebas de color impresas, de esta manera se visualiza la calidad de impresión y la corrección de posibles errores. 
+            p En los procesos para la producción gráfica es importante cada etapa, con el fin de obtener un producto final óptimo y un cliente satisfecho. Las pruebas de color son de suma importancia ya que ayudarán a definir las tonalidades de colores corporativos de una empresa, o la textura de una imagen, muchas veces lo que se ve en el monitor tiende a variar un poco, así que la mejor opción que se tiene son las pruebas de color impresas, de esta manera se visualiza la calidad de impresión y la corrección de posibles errores. 
           .col-8.col-xl
             img(src="@/assets/curso/t1-17.png")
       
@@ -339,7 +339,7 @@
 
     .row.justify-content-center.align-items-center
       .col-lg-7.mb-4.mb-lg-0
-        p Se puede definir diseño gráfico como un proceso de funciones aplicadas para comunicar una idea y plasmarla, utilizando desde una imagen hasta cualquier medio visual como una revista, un libro, un catálogo, un poster, un afiche, y todos aquellos medios impresos posibles para su divulgación.
+        p Se puede definir diseño gráfico como un proceso de funciones aplicadas para comunicar una idea y plasmarla, utilizando desde una imagen hasta cualquier medio visual como una revista, un libro, un catálogo, un póster, un afiche, y todos aquellos medios impresos posibles para su divulgación.
         p Este proceso conlleva previamente unos objetivos planteados como definir el grupo objetivo al que se pretende comunicar, o el objetivo de la comunicación, en otras palabras, el diseño gráfico es una creación visual, donde se incorporan varios elementos en su creación para, posteriormente, iniciar un proceso de producción gráfica y así obtener un diseño impreso. 
         p En el diseño orientar un proyecto requiere de una labor ardua entre el cliente y el equipo de creación, lo más importante es:
 
@@ -573,7 +573,7 @@
     
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/if4PXheFbWA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/rKmKPYDpAmk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     separador
 

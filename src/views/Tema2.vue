@@ -71,7 +71,7 @@
                 img(src='@/assets/curso/t2-10.svg')
             .col-md
               h5 Formato PDF
-              p.mb-0 PDF (<em>Portable Document Format</em>) es un formato muy práctico a la hora de compartir archivos, publicar en internet y también para impresión de documentos, el programa usado para abrir los archivos es Adobe Acrobat, los archivos se pueden guardar vectorizados, es compatible con Illustrator y Photoshop, pues si un archivo se guarda vectorizado en PDF, al abrirlo con illustrator se encontrará vectorizado de la misma forma, es decir que al guardar un vector en PDF no se convertirá en una imagen rasterizada.
+              p.mb-0 PDF (<em>Portable Document Format</em>) es un formato muy práctico a la hora de compartir archivos, publicar en internet y también para impresión de documentos, el programa usado para abrir los archivos es Adobe Acrobat, los archivos se pueden guardar vectorizados, es compatible con Illustrator y Photoshop, pues si un archivo se guarda vectorizado en PDF, al abrirlo con Illustrator se encontrará vectorizado de la misma forma, es decir que al guardar un vector en PDF no se convertirá en una imagen rasterizada.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="60%" y="96.7%" tooltip="Extensión SVG")
         .tarjeta.tarjeta--blanca.p-4.p-lg-5
@@ -101,10 +101,10 @@
         .row
           .col-lg-6.mb-4.mb-lg-0
             h4 Formato JPG
-            p La extensión JPG (<em>Joint Photographic Experts Group</em>), es el formato más popular y talvez el más utilizado para guardar imágenes, es un formato de compresión de imágenes, a la hora de utilizarlo es importante saber la calidad de compresión que se va a utilizar, ya que comprime bastante haciendo que se pierda calidad en una imagen, es muy utilizado para subir imágenes optimizadas a internet en modo de color RGB, también se puede guardar una imagen para impresión e modo de color CMYK y darle una resolución óptima y luego guardar en formato JPG.
+            p La extensión JPG (<em>Joint Photographic Experts Group</em>), es el formato más popular y talvez el más utilizado para guardar imágenes, es un formato de compresión de imágenes, a la hora de utilizarlo es importante saber la calidad de compresión que se va a utilizar, ya que comprime bastante haciendo que se pierda calidad en una imagen, es muy utilizado para subir imágenes optimizadas a internet en modo de color RGB, también se puede guardar una imagen para impresión en modo de color CMYK y darle una resolución óptima y luego guardar en formato JPG.
             p 
               b Ejemplo JPG: 
-              | En el ejemplo se utiliza el programa Photoshop, una vez se cambia el modo de color se puede guardar el archivo en la extensión JPG para impresión, aunque a la hora de guardar un archivo óptimo para impresión existen otros formatos con menos compresión, así se ganará más calidad. Siempre es importante tener claro para que se va a utilizar una imagen, con ello se determinará la mejor opción del tipo de formato a utilizar.
+              | en el ejemplo se utiliza el programa Photoshop, una vez se cambia el modo de color se puede guardar el archivo en la extensión JPG para impresión, aunque a la hora de guardar un archivo óptimo para impresión existen otros formatos con menos compresión, así se ganará más calidad. Siempre es importante tener claro para qué se va a utilizar una imagen, con ello se determinará la mejor opción del tipo de formato a utilizar.
         
           .col-lg-6
             figure
@@ -118,7 +118,7 @@
             p En el formato PNG se pueden guardar los archivos en dos opciones PNG 8 y PNG 24. En la opción PNG 8, tiene color de 8 bits, muestra 256 colores, es menor el tamaño debido a la información. En la opción PNG 24, tiene 24 bits, muestra 16 millones de colores, es decir que la calidad de imagen es mejor, pero las imágenes son más pesadas.
             p 
               b Ejemplo PNG: 
-              | Para guardar un formato PNG con transparencia, desde Illustrator se hace click en el menú Archivo - exportar se visualiza en la siguiente ventana, allí se definen la resolución, suavizado y color de fondo transparente. 
+              | para guardar un formato PNG con transparencia, desde Illustrator se hace clic en el menú Archivo - exportar se visualiza en la siguiente ventana, allí se definen la resolución, suavizado y color de fondo transparente. 
         
           .col-lg-6
             figure
@@ -155,7 +155,7 @@
             p El formato GIF (<em>Graphics Interchange Format</em>) es un formato muy utilizado ya que permite comprimir animaciones, es muy utilizado en internet, redes sociales, al crear una animación y luego exportarla al formato GIF, solo con dar clic se puede ver la animación creada. Usualmente se pueden encontrar emoticonos, stickers en algunas redes sociales en formato GIF.
             p 
               b Ejemplo GIF: 
-              | Previamente se realiza la acción de movimiento en un programa como Photoshop y posteriormente se exporta con la extensión GIF.
+              | previamente se realiza la acción de movimiento en un programa como Photoshop y posteriormente se exporta con la extensión GIF.
         
           .col-lg-6
             .row.justify-content-center
@@ -316,13 +316,14 @@
 
       .d-flex.align-items-center.justify-content-center.h-100(x="7%" y="85.5%" claseBoton="color-secundario")
         .tarjeta.tarjeta--blanca.p-4.p-lg-5
-          h5 Epílogo
-          p.mb-0 Se ubica al final de la obra, con el fin de hacer una observación o comentario sobre ella o para resolver algún entramado de la obra.
-
-      .d-flex.align-items-center.justify-content-center.h-100(x="7%" y="96%" claseBoton="color-secundario")
-        .tarjeta.tarjeta--blanca.p-4.p-lg-5
           h5 Colofón
           p.mb-0 Es la anotación al final del libro en la que se coloca el nombre del impresor, lugar y fecha de la impresión, número de tirada y el logotipo del impresor.
+
+          
+      .d-flex.align-items-center.justify-content-center.h-100(x="7%" y="96%" claseBoton="color-secundario")
+        .tarjeta.tarjeta--blanca.p-4.p-lg-5
+          h5 Epílogo
+          p.mb-0 Se ubica al final de la obra, con el fin de hacer una observación o comentario sobre ella o para resolver algún entramado de la obra.
 
 
       .d-flex.align-items-center.justify-content-center.h-100(x="93%" y="7.5%")
@@ -414,7 +415,7 @@
               img(src="@/assets/curso/t2-28.svg")
             .col-lg
               h5 Anuncios
-              p.mb-0 La mayoría de las veces se relacionan con la temática que trata la revista, a veces constituyen hasta el 60% del contenido. Como el lector mira primero las páginas impares, generalmente se publican allí.
+              p.mb-0 La mayoría de las veces se relacionan con la temática que trata la revista, a veces constituyen hasta el 60 % del contenido. Como el lector mira primero las páginas impares, generalmente se publican allí.
 
       .d-flex.align-items-center.justify-content-center.h-100(x="87%" y="41%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
@@ -729,63 +730,63 @@
         figure
           img(src='@/assets/curso/t2-47.svg')
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="6.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="21%" y="6.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel periódico
           p.mb-0 Este tipo de papel es el más utilizado en la impresión de periódicos. Su base principalmente está elaborada a partir de papel reciclado o pasta mecánica. Puede ser blanco o ligeramente coloreado y su gramaje habitual oscila entre los 40 y los 52 g/m2, aunque puede llegar a 65 g/m2. Este tipo de papel se utiliza en las artes gráficas para volantes, folletos y talonarios por ser muy liviano y económico.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="24%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="21%" y="24%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Bond
           p.mb-0 Es un papel fuerte, de alta calidad y resistente. Es el papel utilizado comúnmente para las copias en las máquinas fotocopiadoras, siendo el de 75 gr, el más utilizado por estas. En las artes gráficas se utiliza para las hojas membretadas, volantes o flyers a una o varias tintas, sobres de correspondencia, también se utiliza para las notas, anuncios, manuales, folletos, boletines, informes, papelería personalizada, talonarios o factureros, catálogos, revistas, libros y anuncios, existen varios gramajes como se presenta a continuación:
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="41.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="21%" y="41.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Bond extrablanco
           p.mb-0 Es el mismo papel bond, solamente que su blancura es más intensa, por lo que se utiliza para hojas membretadas de mejor presentación, obteniéndose un trabajo gráfico más elegante.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="58.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="21%" y="58.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel propalcote – esmaltados
           p.mb-0 Es un papel muy liso en el que se puede trabajar muy bien la tinta, ya que tiene un acabado semisatinado; tiene la desventaja de que los trabajos a lápiz tienden a ensuciarse un poco. Se emplea principalmente en litografía, en etiquetas de envases, libros, revistas, folletos, volantes, papel regalo y empaques.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="76%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="21%" y="76%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel químico
           p.mb-0 El papel químico o auto copiante es aquel que no requiere papel carbón para pasar del original a la copia al escribir. Su gramaje es 60. Viene en blanco para el original y en colores pasteles para la copia.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="19%" y="93.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="21%" y="93.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Cartulinas - Bristol
           p.mb-0 Útil para tarjetas para contabilidad, carnets, separadores de libros, insertos en revistas, cuadernos de dibujo, álbumes para fotografía y trabajos manuales. Implementos de oficina: ficheros, kárdex, tarjetas de reloj. También usadas en plegadizas para alimentos, fósforos. Son vistas en moldes de modistería y, en ocasiones, son unidas para lograr un material más fuerte pero dobladizo.
 
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="6.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="77.5%" y="6.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Kraft
           p.mb-0 Utilizado especialmente para elaborar sobres de manila, sacos de resistencia y envolturas. También es útil en la cobertura de talonarios y otras formas comerciales.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="24%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="77.5%" y="24%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel adhesivo
           p.mb-0 Principalmente utilizados en etiquetas de empaques, envases y botellas, caramelos de cartillas y cualquier tipo de <em>sticker</em>, como: 
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="41.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="77.5%" y="41.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Manila
           p.mb-0 Este papel, diseñado especialmente para el forrado de planchuelas y cables, tiene una gran resistencia al estiramiento, lo que permite un trabajo versátil en máquinas automáticas; es visto también en tapas de talonarios. Los papeles más gruesos suelen ser utilizados en sobres de radiografías.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="58.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="77.5%" y="58.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Opalina
           p.mb-0 Papel relativamente nuevo, originalmente diseñado para todo tipo de impresión, elaborado de pulpa de madera, presenta un acabado liso y en algunos casos gofrado; se usa principalmente para tarjetería.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="76%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="77.5%" y="76%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Lino Belga
           p.mb-0 Papel fino utilizado especialmente para tarjetas de presentación y sociales.
 
-      .d-flex.align-items-center.justify-content-center.h-100(x="81%" y="93.5%")
+      .d-flex.align-items-center.justify-content-center.h-100(x="77.5%" y="93.5%")
         .tarjeta.tarjeta--blanca.w-100.p-4.p-lg-5
           h3 Papel Kimberly
           p.mb-0 Papel fino especial para tarjetas de presentación y sociales, viene en múltiples colores y texturas.
